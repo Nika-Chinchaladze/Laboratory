@@ -84,13 +84,13 @@ async def my_list_iterator():
 
 # async dict comprehension -> with async iterator
 async def my_dict_iterator():
-    result = {i: i*2 async for i in func1()}
+    result = {i: i*2 async for i in AsyncIterator()}
     return result
 
 
 # async set comprehension -> with async iterator
 async def my_set_iterator():
-    result = {i async for i in func1()}
+    result = {i async for i in AsyncIterator()}
     return result
 
 list_answer_iterator = asyncio.run(my_list_iterator())
