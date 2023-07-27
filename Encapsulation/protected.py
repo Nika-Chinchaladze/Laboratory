@@ -15,7 +15,7 @@ class Derived(Base):
         return "Sniper level shooting..."
 
 
-base_object = Derived()
+base_object = Base()
 base_object._name = "john"  # can be modified from outside
 print(base_object._name)  # can be accessed from outside
 
