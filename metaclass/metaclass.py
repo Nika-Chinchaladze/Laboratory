@@ -14,6 +14,8 @@ like as we changed all attributes and methods from lower into upper case, we can
 how class should be created -> if they must have or mustn't have some attribute or method - and, only when
 the class will meet the requirements, then it will be created and represented as object -> we can control
 this entire process.
+
+# we can control the inheritence and attributes.
 """
 
 
